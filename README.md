@@ -1765,13 +1765,12 @@ https://stackoverflow.com/questions/65703840/how-to-properly-configure-jakarta-e
 
 # Referências
 
+**Curso Jakarta EE REST com JAX-RS por: Fernando Franzini**  
+https://www.udemy.com/course/java-ee-rest-com-jax-rs/
+
 
 **Cliente JAX-RS no Android** veja:  
 https://fernandofranzini.wordpress.com/2015/09/03/usando-jax-rs-para-consumir-rest-no-android
-
-**Referência Bibliográfica - JAX-RS**  
-RESTful Java with JAX-RS 2.0: Designing and Developing  
-Distributed Web Services 2nd Edition, author Bill Burke
 
 **WriterInterceptorContext** veja javadoc:  
 https://docs.oracle.com/javaee/7/api/javax/ws/rs/ext/WriterInterceptorContext.html
@@ -1784,7 +1783,8 @@ https://docs.oracle.com/javaee/7/api/javax/ws/rs/client/ClientResponseContext.ht
 
 
 **ClientRequestContext** veja javadoc:  
-https://docs.oracle.com/javaee/7/api/javax/ws/rs/client/ClientRequestContext.html.
+https://docs.oracle.com/javaee/7/api/javax/ws/rs/client/ClientRequestContext.html
+
 
   
 **Container javadoc:**  
@@ -1810,8 +1810,7 @@ CXF – http://cxf.apache.org/
 **Opções de produtos rest Java**  
 Spring-MVC – https://spring.io/guides/gs/rest-service/    
 Spark – http://sparkjava.com/  
-Groovy-wslite -  
-https://github.com/jwagenleitner/groovy-wslite  
+Groovy-wslite -  https://github.com/jwagenleitner/groovy-wslite  
 Grails – http://grails.org/index.html  
 Struts 2 – http://struts.apache.org/docs/rest-plugin.html
 
@@ -1826,3 +1825,6 @@ https://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 **Especificação:**  
 http://www.w3.org/Protocols/rfc2616/rfc26
 
+**Referência Bibliográfica - JAX-RS**  
+RESTful Java with JAX-RS 2.0: Designing and Developing  
+Distributed Web Services 2nd Edition, author Bill Burke
