@@ -1,0 +1,12 @@
+Caderno de exercicio:
+
+1. dezipar tomcat
+2. adicionar tomcat no eclipse.
+2. criar projeto web - jee-rest
+3. adicionar pom ou jars
+4. criar html index
+5. adicionar web.xml conf jersey
+6. copiar src do outro projeto
+7. rodar e testar
+  - http://localhost:8080/jee-rest/rest/ola
+  - http://localhost:8080/jee-rest/rest/calculadora?v1=5&v2=5
