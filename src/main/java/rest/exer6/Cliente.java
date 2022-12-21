@@ -52,8 +52,8 @@ public class Cliente {
     }
 
     public static void main(String[] args) {
-        cliente1();
-        cliente2();
+        //cliente1();
+       // cliente2();
         cliente3();
     }
 }

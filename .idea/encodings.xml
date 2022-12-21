@@ -2,6 +2,17 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/rest/exer1/Ola.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/rest/exer1/Servidor.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/rest/exer10/Servidor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/rest/exer3/Servidor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/rest/exer6/Cliente.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/rest/exer6/Servidor.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/rest/exer8/Funcionario.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/rest/exer9/RestTitulosImp.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/rest/exer9/Servidor.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/main/java/rest/exer9/Titulo.java" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="windows-1252" />
   </component>
 </project>

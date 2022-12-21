@@ -5,6 +5,8 @@ import javax.ws.rs.container.ContainerRequestContext;
 import javax.ws.rs.container.ContainerRequestFilter;
 import javax.ws.rs.ext.Provider;
 
+
+// Executada depois do processamento da classe de serviço REST
 @Provider
 public class FiltroCabecalhos implements ContainerRequestFilter {
 	@Override

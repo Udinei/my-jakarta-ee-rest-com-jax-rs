@@ -12,7 +12,7 @@ public class Cliente {
 		WebTarget web = cliente.target("http://localhost:8080/numerorandomico");
 		Response resposta = web.request().get();
 		if (resposta.getStatus() == 200) {
-			String mensagem = resposta.readEntity(String.class);
+			String mensagem = resposta.readEntity(String.class);// le o planText de retorno da resposta(o numero randomico) e converte em String
 			System.out.println(mensagem);
 		} else {
 			System.out.println("erro na resposta = " + resposta.toString());

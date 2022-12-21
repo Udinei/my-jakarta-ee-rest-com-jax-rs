@@ -10,14 +10,18 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
+// http://localhost:8080/teste
+// http://localhost:8080/teste?numero=2
+// http://localhost:8080/teste?numero=3
+
 @Path("/teste")
 public class RestRespostaDinamica {
 
     @GET
-    // Veja que não tem produces, pq não vamos engessar...vamos retornar dinamicamente.
+    // Veja que nao tem produces, pq nao vamos engessar...vamos retornar dinamicamente.
     public Response teste(@QueryParam("numero") @DefaultValue("1") Integer numero) {
         if (numero == 1) {
-            return Response.status(Status.FORBIDDEN).type(MediaType.TEXT_PLAIN).entity("Não permitido")
+            return Response.status(Status.FORBIDDEN).type(MediaType.TEXT_PLAIN).entity("NÃ£o permitido")
                     .build();
         }
         Funcionario f = new Funcionario();
@@ -30,6 +34,6 @@ public class RestRespostaDinamica {
         if (numero == 3) {
             return Response.ok().type(MediaType.APPLICATION_JSON).entity(f).build();
         }
-        return Response.ok().type(MediaType.TEXT_PLAIN).entity("Codigo não tratado").build();
+        return Response.ok().type(MediaType.TEXT_PLAIN).entity("Codigo nao tratado").build();
     }
 }

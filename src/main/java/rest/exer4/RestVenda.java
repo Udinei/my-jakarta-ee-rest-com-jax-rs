@@ -6,7 +6,11 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
-
+/**
+ *   Teste http://localhost:8080/venda?nome=fernando franzini&produto=disco
+ *   Teste http://localhost:8080/venda?nome=fernando franzini&produto=bicicleta&tipo=texto
+ *
+ * */
 @Path("/venda")
 public class RestVenda {
 

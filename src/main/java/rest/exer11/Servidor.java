@@ -14,9 +14,9 @@ public class Servidor {
             config.packages("rest.exer11");
             HttpServer server = GrizzlyHttpServerFactory.createHttpServer(uri, config);
             System.out.println("servidor no ar teste - " + server);
-            // Teste http://localhost:8080/horas2
+
         } catch (Exception e) {
-            System.out.println("Erro na execução do servidor JSE - " + e.getMessage());
+            System.out.println("Erro na execuÃ§Ã£o do servidor JSE - " + e.getMessage());
         }
     }
 }

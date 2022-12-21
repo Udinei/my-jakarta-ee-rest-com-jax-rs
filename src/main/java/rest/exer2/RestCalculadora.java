@@ -5,7 +5,12 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
-
+/**
+ *
+ *  1. http://localhost:8080/application.wadl
+ *  2. http://localhost:8080/calculadora?v1=10&v2=10
+ *
+ * */
 @Path("/calculadora")
 public class RestCalculadora {
     @GET

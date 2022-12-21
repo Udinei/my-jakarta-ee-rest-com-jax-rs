@@ -15,12 +15,12 @@ public class ServidorPostman {
             config.packages("rest.exer5");
             HttpServer server = GrizzlyHttpServerFactory.createHttpServer(uri, config);
             System.out.println("servidor no ar teste - " + server);
-            // teste http://localhost:8080/application.wadl = veja que aparece todos os serviços
+            // teste http://localhost:8080/application.wadl = veja que aparece todos os serviï¿½os
             // Teste http://localhost:8080/ola
             // Teste http://localhost:8080/funcionario/xml
             // Teste http://localhost:8080/funcionario/json
         } catch (Exception e) {
-            System.out.println("Erro na execução do servidor JSE - " + e.getMessage());
+            System.out.println("Erro na execucao do servidor JSE - " + e.getMessage());
         }
     }
 }

@@ -7,6 +7,9 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+// Teste http://localhost:8080/funcionario/xml
+// Teste http://localhost:8080/funcionario/json
+
 @Path("/funcionario/")
 public class RestEmpresa {
 

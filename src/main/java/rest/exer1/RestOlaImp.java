@@ -7,11 +7,10 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-// Rest é diferente do soap por podemos enviar qualquer tipo de texto para ser visto no navegador.
-// Por isso podemos testar os REST no navegador tambem. Soap envia o protocolo SOAP e por isso não da para
+// Rest ï¿½ diferente do soap por podemos enviar qualquer tipo de texto para ser visto no navegador.
+// Por isso podemos testar os REST no navegador tambem. Soap envia o protocolo SOAP e por isso nï¿½o da para
 // ver nada no navegador e nem executar.
 @Path("/ola")
-
 public class RestOlaImp implements Ola {
 
     @GET

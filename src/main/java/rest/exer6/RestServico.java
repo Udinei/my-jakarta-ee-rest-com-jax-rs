@@ -15,7 +15,7 @@ public class RestServico {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hora() {
-        return "hora servidor é = " + new Date().toString();
+        return "hora servidor Ã© = " + new Date().toString();
     }
 
     @Path("/soma")
